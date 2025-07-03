@@ -3,8 +3,9 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'HTMLHero Storefront',
-  description: 'The best HTML templates for your next project.',
+  title: 'HTMLHero',
+  description: 'The Ultimate Digital Marketplace
+Your one-stop shop to buy and sell Telegram Mini Apps, mobile apps, websites, social accounts, bots, tools, and game accounts.',
 };
 
 export default function RootLayout({
