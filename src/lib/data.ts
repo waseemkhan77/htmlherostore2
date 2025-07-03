@@ -1,0 +1,77 @@
+import type { Product } from './types';
+
+// This data can be used to seed your Firestore database.
+export const products: Product[] = [
+  {
+    id: 'prod_001',
+    title: 'Corporate Pro',
+    description: 'A sleek and professional HTML template for corporate businesses. Fully responsive with a clean design.',
+    price: 59.00,
+    discount: 0.2,
+    unitsSold: 120,
+    rating: 4.8,
+    image: 'https://placehold.co/600x400.png',
+    livePreviewLink: '#',
+    category: 'Websites',
+  },
+  {
+    id: 'prod_002',
+    title: 'CreativeFolio',
+    description: 'A stunning portfolio template for creatives, designers, and photographers. Showcase your work in style.',
+    price: 49.00,
+    discount: 0.1,
+    unitsSold: 250,
+    rating: 4.9,
+    image: 'https://placehold.co/600x400.png',
+    livePreviewLink: '#',
+    category: 'Websites',
+  },
+  {
+    id: 'prod_003',
+    title: 'ShopifyLite',
+    description: 'A minimalist and modern e-commerce template. Easy to customize and perfect for small online stores.',
+    price: 79.00,
+    unitsSold: 85,
+    rating: 4.7,
+    image: 'https://placehold.co/600x400.png',
+    livePreviewLink: '#',
+    category: 'Websites',
+  },
+  {
+    id: 'prod_004',
+    title: 'LaunchPad',
+    description: 'The perfect landing page to launch your new product or service. High conversion rate design.',
+    price: 39.00,
+    discount: 0.15,
+    unitsSold: 450,
+    rating: 4.9,
+    image: 'https://placehold.co/600x400.png',
+    livePreviewLink: '#',
+    category: 'Websites',
+  },
+  {
+    id: 'prod_005',
+    title: 'BizConnect',
+    description: 'A comprehensive business directory and networking template. Connect professionals with ease.',
+    price: 69.00,
+    unitsSold: 60,
+    rating: 4.6,
+    image: 'https://placehold.co/600x400.png',
+    livePreviewLink: '#',
+    category: 'Websites',
+  },
+  {
+    id: 'prod_006',
+    title: 'Artisan Showcase',
+    description: 'A beautiful portfolio template for artists and artisans to display their creations.',
+    price: 49.00,
+    unitsSold: 180,
+    rating: 4.8,
+    image: 'https://placehold.co/600x400.png',
+    livePreviewLink: '#',
+    category: 'Websites',
+  },
+];
+
+// Note: Orders and Tasks are now managed in Firebase.
+// The initial data below is no longer used.
