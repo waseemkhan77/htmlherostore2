@@ -4,8 +4,7 @@ import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
   title: 'HTMLHero',
-  description: 'The Ultimate Digital Marketplace
-Your one-stop shop to buy and sell Telegram Mini Apps, mobile apps, websites, social accounts, bots, tools, and game accounts.',
+  description: 'The Ultimate Digital Marketplace.',
 };
 
 export default function RootLayout({
